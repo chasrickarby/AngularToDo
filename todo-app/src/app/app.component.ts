@@ -2,13 +2,6 @@ import {Component} from '@angular/core';
 import {Todo} from './todo';
 import {TodoDataService} from './todo-data.service';
 import { FormsModule } from '@angular/forms';
-import { NgModule } from '@angular/core';
-
-@NgModule({
-  imports:[
-    FormsModule
-  ]
-})
 
 @Component({
   selector: 'app-root',
